@@ -12,6 +12,6 @@ public class tugas1 {
         }
 
         //after
-        System.out.println("And now I could be runned and not stopped beacuse of that arrayindexoutofbound exception :D");
+        System.out.println("And now I could be ran and not stopped because of that arrayindexoutofbound exception :D");
     }
 }

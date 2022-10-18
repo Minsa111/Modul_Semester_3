@@ -1,19 +1,18 @@
-package Modul1.tugas2;
+package Modul2;
 
-import java.awt.*;
 import java.util.Scanner;
 import java.util.regex.Pattern;
 
 public class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        String nim = null;
+        String nim;
         String NIM = null;
-        String in_email = null;
+        String in_email;
         String Email = null;
         String in_phoneNum = null;
-        String PhoneNum = null;
-        String ans = null;
+        String PhoneNum;
+        String ans;
         boolean nim_correct =false;
         boolean email_correct = false;
         boolean phoneNum_correct = false;
@@ -107,18 +106,18 @@ public class Main {
             System.out.println("Your data: \n\nNIM\t\t\t\t:\t"+NIM);
             System.out.println("Email\t\t\t:\t"+Email);
             System.out.println("Phone Number\t:\t"+PhoneNum);
-            if(smartfren == true){
+            if(smartfren){
                 System.out.println("Number type\t:\tSmartfren");
-            }else if (xl==true){
-                System.out.println("Number type\t:\tXL");
-            }else if (axis==true){
-                System.out.println("Number type\t:\tAxis");
-            }else if(three==true){
-                System.out.println("Number type\t:\tThree");
-            }else if (indosat==true){
-                System.out.println("Number type\t:\tIndosat");
+            }else if (xl){
+                System.out.println("Number type\t\t:\tXL");
+            }else if (axis){
+                System.out.println("Number type\t\t:\tAxis");
+            }else if(three){
+                System.out.println("Number type\t\t:\tThree");
+            }else if (indosat){
+                System.out.println("Number type\t\t:\tIndosat");
             }else{
-                System.out.println("Number type\t:\tUnknown");
+                System.out.println("Number type\t\t:\tUnknown");
             }
         }
     }
