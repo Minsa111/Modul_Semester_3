@@ -64,7 +64,7 @@ public class idk {
 
 
         do {
-            System.out.print("From:");
+            System.out.print("From:\t");
             inFrom = input.nextLine();
             if(!cekFrom(inFrom)){
                 System.out.println("The only option that is available is \"Malang\", \"Surabaya\", and \"Bandung\".");
