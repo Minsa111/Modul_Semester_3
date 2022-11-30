@@ -1,6 +1,6 @@
 package Modul3.Tugas;
 
-public class block {
+public class Block {
 
     private int height;
     private int width;
@@ -30,6 +30,15 @@ public class block {
     public void setLength(int length) {
         this.length = length;
     }
+    protected void hasil() {
+        Perhitungan ph = new Perhitungan();
+        System.out.println("Hasil Luas Balok\t : " + ph.getLuas(this) + " cm");
+        System.out.println("Hasil Volume Balok\t : " + ph.getVolume(this) + " cm^3");
+    }
 
+    static boolean isCube(long input) {
 
+        return ( Math.round( Math.cbrt( input ) ) * Math.round(Math.cbrt(input))
+                * Math.round(Math.cbrt(input))) == input;
+    }
 }

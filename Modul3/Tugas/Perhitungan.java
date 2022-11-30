@@ -1,11 +1,13 @@
 package Modul3.Tugas;
 
 public class Perhitungan {
-    block r = new block();
-    void perhitungan(){
-        int length= r.getLength();
-        int width = r.getWidth();
-        int height= r.getHeight();
+    Block sisi = new Block();
 
+    int getLuas(Block sisi) {
+        return sisi.getLength() * sisi.getWidth() * sisi.getHeight();
+    }
+
+    int getVolume(Block sisi) {
+        return 4 * sisi.getLength() * sisi.getWidth() * sisi.getHeight();
     }
 }
