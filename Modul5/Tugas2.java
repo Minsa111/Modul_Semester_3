@@ -33,5 +33,12 @@ public class Tugas2 {
             if (!found){
                 System.out.println("Sorry the number that you've inputted is not available in out arrays lmao xD");
             }
+            /*
+            List<Integer> arr = Arrays.asList(-75, -10, 0, 30, 0, -30, 90, 70, 89, -50, -55, -30);
+            arr.sort( Comparator.naturalOrder());
+            Scanner in = new Scanner( System.in );
+            int ans = in.nextInt();
+            arr.indexOf(ans);
+             */
         }
 }
