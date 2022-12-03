@@ -24,7 +24,7 @@ public class Tugas2 {
             boolean found =false;
                 for (int i=0; i< arr.size(); i++){
 
-                    if (ans==arr.get( i )) {
+                    if (ans== arr.get( i )) {
                         System.out.println("Number found at index: "+i);
                         found=true;
                     }
