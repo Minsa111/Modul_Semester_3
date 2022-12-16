@@ -20,12 +20,12 @@ public class Tugas2 {
             Scanner in = new Scanner( System.in );
             System.out.print("\nInsert a number to search the index out of it: ");
             int ans = in.nextInt();
-
+            System.out.print("index founf at: ");
             boolean found =false;
                 for (int i=0; i< arr.size(); i++){
 
                     if (ans== arr.get( i )) {
-                        System.out.println("Number found at index: "+i);
+                        System.out.print(i);
                         found=true;
                     }
                 }
